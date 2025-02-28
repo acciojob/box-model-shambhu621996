@@ -4,13 +4,57 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+}
+			.container {
+    background-color:lightgray;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+	height:100px;
+		}
+		.red, .green, .yellow {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<div class="container">
+	<span class="red"></span>
+	<span class="green"></span>
+	<span class="yellow"></span>
+</div>
 </body>
 
 </html>
